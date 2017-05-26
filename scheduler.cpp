@@ -247,7 +247,7 @@ void longest_rem_time_first(struct Process *p, int n, int tq)
     Display(p,n,indexes,"Longest remaining time first");
 
 }
-void round_robin(struct Process *p, int n, int tq)   /// not working :(
+void round_robin(struct Process *p, int n, int tq)   /// working :)
 {
     int indexes[n];
     get_index(p,indexes,n);
